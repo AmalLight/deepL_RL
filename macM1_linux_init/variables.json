@@ -1,0 +1,22 @@
+{
+    "test"    :   "ok"  ,
+    "reset"   :  "yes"  ,
+    "init"    :  "yes"  ,
+
+    "host"    : "locallinux" ,
+    "port"    : "8081"       ,
+
+    "image"   : "gym_torch_matplotlib_tf" ,
+    "volume"  : "Neural_Network" ,
+
+    "wanted"  : [ "*.py" ] ,
+
+    "execute"     : "yes" ,
+    "cmd_numbers" :  "1"  ,
+    "cmd_list"    :   [
+    {
+        "folder"   : "exercise"          ,
+        "software" : "/usr/bin/python3"      ,
+        "file"     : "Deep_Q_Network.py"
+    } ]
+}
